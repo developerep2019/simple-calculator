@@ -5,30 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
-    <div class="calculator">
-        <div class="output">
-            <input type="text" readonly value="0">
-        </div>
-        <div class="buttons">
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>/</button>
-            <button>6</button>
-            <button>5</button>
-            <button>4</button>
-            <button>X</button>
-            <button>3</button>
-            <button>2</button>
-            <button>1</button>
-            <button>-</button>
-            <button>C</button>
-            <button>0</button>
-            <button>=</button>
-            <button>+</button>
-        </div>
-    </div>
+    <section class="container-fluid bg">
+        <section class="row justify-content-center align-item-center">
+            <div class="col-12 col-sm-6 col-md-3">
+                <form class="form-container">
+                        <form action="" name="form">
+                            <input type="text" name="display" id="" class="form-control result-bar" value="0" readonly>
+                            <div class="line">
+                                <input type="button" value="7" class="btn btn-primary" name="btn">
+                                <input type="button" value="8" class="btn btn-primary" name="btn">
+                                <input type="button" value="9" class="btn btn-primary" name="btn">
+                                <input type="button" value="/" class="btn btn-warning" name="btn">
+                            </div>
+
+                            <div class="line">
+                                <input type="button" value="6" class="btn btn-primary" name="btn">
+                                <input type="button" value="5" class="btn btn-primary" name="btn">
+                                <input type="button" value="4" class="btn btn-primary" name="btn">
+                                <input type="button" value="X" class="btn btn-warning" name="btn">
+                            </div>
+
+                            <div class="line">
+                                <input type="button" value="3" class="btn btn-primary" name="btn">
+                                <input type="button" value="2" class="btn btn-primary" name="btn">
+                                <input type="button" value="1" class="btn btn-primary" name="btn">
+                                <input type="button" value="-" class="btn btn-warning" name="btn">
+                            </div>
+
+                            <div class="line">
+                                <input type="button" value="C" class="btn btn-primary" name="btn">
+                                <input type="button" value="0" class="btn btn-primary" name="btn">
+                                <input type="button" value="=" class="btn btn-primary" name="btn">
+                                <input type="button" value="+" class="btn btn-warning" name="btn">
+                            </div>
+                        </form>
+                    </div>
+                  </form>
+        </section>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
